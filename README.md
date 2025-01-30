@@ -14,7 +14,7 @@ setattr(pipeline, 'ADG', ADG_SD3.__get__(pipeline))
 
 # Generate an image using ADG
 prompt = 'what you want'
-image = pipeline.ADG_SD3(prompt=prompt, num_inference_steps=10, guidance_scale=4, num_images_per_prompt=1).images[0]
+image = pipeline.ADG(prompt=prompt, num_inference_steps=10, guidance_scale=4, num_images_per_prompt=1).images[0]
 image.save("output.jpg")
 ```
 
