@@ -1,6 +1,6 @@
 # ADG
 
-Our algorithm is built on top of the `diffusers` package, providing a plug-and-play solution with a low learning curve for users. We have currently uploaded the algorithm code and the code for some of the key visualization results presented in the paper. The code for complete testing is undergoing privacy desensitization and will be released soon.
+Our algorithm is built on top of the `diffusers` package, providing a plug-and-play solution with a low learning curve for users. We have currently uploaded the algorithm code and the code for some of the key visualization results presented in the paper. 
 
 You can use the following Python code to run the proposed ADG algorithm:
 
